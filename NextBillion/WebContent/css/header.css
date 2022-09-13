@@ -1,0 +1,97 @@
+
+.tabs{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#heading {
+color: #FF4E28;
+text-align: center;
+font-family:fantasy;
+font-size: 55px;
+padding: 1px 0px;
+margin-block-start: 0.67em;
+margin-block-end: 1px;
+border: 0px;
+}
+
+#conn {
+	text-align: center;
+	font-size: 25px;
+	color:#00637B;
+	font-family:Lucida Handwriting;
+	margin-bottom: -100px;		
+}
+
+td#login {
+	text-align: center;
+	font-size: 15px;
+	color:#00637B;
+	background:#D5DFEA;
+	margin-bottom: -100px;	
+	font-family: Monaco;
+	position: relative;
+    left: 980px;
+    top: 2px;	
+}
+
+#pad{
+  width: 100%;
+  background-color: #FF4E28;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#pad:hover {
+  background-color: #D02500;
+}
+#pad.active {
+  background-color: #D02500;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 20px 20px;
+   background-color: #E64E15;
+   color: white;
+   text-align: center;
+}
+
+a:link {
+  color: white;
+  font-size: 16px;
+  
+}
+
+a:hover {
+  color: white;
+  font-size: 16px;
+  background-color: red; 
+}
+
+#smallFont{
+	font-size: 13px;
+}
+
+/* CSS for Issue page */
+
+#issueMessage{
+text-align: center;
+color: #00637B;
+padding-top:150px;
+
+}

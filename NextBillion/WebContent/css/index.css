@@ -1,0 +1,74 @@
+.divScroll {
+   float: left;
+    overflow: scroll;
+    max-height: 241px;
+    width: 36%;
+    position: relative;
+    top: 2px;
+}
+
+#pads{
+  width: 100%;
+  background-color: #0091B8;
+  color: white;
+  padding:1px 32px;
+  margin:1px 0;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#pads:hover {
+  background-color: #00546B;
+}
+#pads.active {
+  background-color: #00546B;
+}
+#pads.visited {
+  color: #00546B;
+}
+
+#go {
+  width: 05%;
+  background-color:#00758A;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius:28px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#go:hover {
+  background-color: #45a049;
+}
+
+
+
+#whereTo{
+	  color: #004855;
+	  font-family:Arial;
+	  font-size: 15px;
+	  padding: 10px 1px;	  
+	  margin-left: 55px;  
+	  width: 300px;
+}
+
+#whereTo:hover {
+  background-color: #D5DFEA; 
+}
+
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        width: 62vw;
+        height: 54vh;
+        float: left;
+  padding: 10px;
+  
+      }
